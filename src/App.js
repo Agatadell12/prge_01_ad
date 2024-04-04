@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 const lista_uzytkownikow = [
@@ -7,7 +6,6 @@ const lista_uzytkownikow = [
   { imie: "Wojciech" },
   { imie: "Wiktoria" },
 ];
-console.log(lista_uzytkownikow);
 
 function App() {
   return (
