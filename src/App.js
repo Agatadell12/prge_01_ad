@@ -1,19 +1,12 @@
 import "./App.css";
-
-const lista_uzytkownikow = [
-  { imie: "Maciej" },
-  { imie: "Mateusz" },
-  { imie: "Wojciech" },
-  { imie: "Wiktoria" },
-];
+import Home from "./components/Home";
 
 function App() {
+  const imie = "WORLD";
+
   return (
     <div className="App">
-      <header className="App-header">geoinformatyka</header>
-      {lista_uzytkownikow.map((zolnierz) => {
-        return <div>{zolnierz.imie}</div>;
-      })}
+      <Home text={imie} />
     </div>
   );
 }
