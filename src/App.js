@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./components/Home";
 import Services from "./components/services/Services";
 import Map from "./components/map/Map";
-import dasboard from "./components/dashboard/Dashboard";
+import Dashboard from "./components/dashboard/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -20,12 +20,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/services/dashboard",
-    element: <dashboard />,
+    element: <Dashboard />,
   },
 ]);
 
 function App() {
-  // const imie = "world";
+  const imie = "world";
 
   return (
     <div className="App">

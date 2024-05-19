@@ -14,7 +14,7 @@ function Map() {
           <LayersControl.BaseLayer name="GoogleSatelite">
             <TileLayer url="http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}" />
           </LayersControl.BaseLayer>
-          <LayersControl.BaseLayer checked name="TopoMap">
+          <LayersControl.BaseLayer name="OpenTopoMap">
             <TileLayer url="https://tile.opentopomap.org/{z}/{x}/{y}.png" />
           </LayersControl.BaseLayer>
         </LayersControl>

@@ -3,10 +3,34 @@ import MediaCard from "./Card";
 
 function Dashboard() {
   const input_list = [
-    { name: "Janek", surname: "Kowalski", content: "jakiś opis Janka" },
-    { name: "Janek", surname: "Kowalski", content: "jakiś opis Janka" },
-    { name: "Janek", surname: "Kowalski", content: "jakiś opis Oli" },
-    { name: "Janek", surname: "Kowalski", content: "jakiś opis Agaty" },
+    {
+      name: "Janek",
+      surname: "Kowalski",
+      content: "jakisopis Janka ",
+      image:
+        "https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg",
+    },
+    {
+      name: "Ola",
+      surname: "Jaciubek",
+      content: "jakisopis Oli ",
+      image:
+        "https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg",
+    },
+    {
+      name: "Mateusz",
+      surname: "Świetlicki",
+      content: "jakisopis Mateusza ",
+      image:
+        "https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg",
+    },
+    {
+      name: "Agata",
+      surname: "Drzygało",
+      content: "jakisopis Agaty ",
+      image:
+        "https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg",
+    },
   ];
   return (
     <div>
