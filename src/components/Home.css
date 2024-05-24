@@ -7,7 +7,7 @@
   justify-content: center;
 }
 .home_left {
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   width: 40vw;
   justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .home_right {
-  background-color: burlywood;
+  /* background-color: burlywood; */
   width: 40vw;
   flex-direction: column;
   display: flex;
