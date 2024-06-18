@@ -13,7 +13,7 @@ import axios from "axios";
 function Map() {
   const [wojewodztwa, setwojewodztwa] = useState(null);
   useEffect(() => {
-    console.log("aaa");
+    ("aaa");
     const getData = () => {
       axios
         .get(
